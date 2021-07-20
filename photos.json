@@ -1,0 +1,260 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "CreativeWork",
+    "url": "https://nagagu.portfoliobox.io/",
+"image":[
+        {
+            "id":"1",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/4674020FbBGUhw.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "1481",
+            "width": "2220"
+        }
+        ,
+        {
+            "id": "2",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402Mgq2DxLT.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "500",
+            "width": "375"
+        }
+        ,
+        {   "id":"3",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402HPWdsvy5.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "585",
+            "width": "800"
+        }
+        ,
+        {   "id":"4",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/4674024NBGgvpS.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "617",
+            "width": "960"
+        }
+        ,
+        {   "id":"5",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402raxCdpzz.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "678",
+            "width": "800"
+        }
+        ,
+        {   "id":"6",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402namgbuwC.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "600",
+            "width": "444"
+        }
+        ,
+        {   "id":"7",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402U1Pr9eRH.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "2304",
+            "width": "3456"
+        }
+        ,
+        {   "id":"8",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402spZ8M61h.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "3456",
+            "width": "2304"
+        }
+        ,
+        {   "id":"9",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402NuYqFriq.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "2304",
+            "width": "3456"
+        }
+        ,
+        {   "id":"10",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/46740221aW0xF9.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "533",
+            "width": "800"
+        }
+        ,
+        {   "id":"11",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402IyxvsXsC.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "433",
+            "width": "719"
+        }
+        ,
+        {   "id":"12",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402QaY9BJLF.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "480",
+            "width": "720"
+        }
+        ,
+        {   "id":"13",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402OSO2smBX.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "480",
+            "width": "720"
+        }
+        ,
+        {   "id":"14",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402hZMHnR2u.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "480",
+            "width": "720"
+        }
+        ,
+        {   "id":"15",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/4674028As3IfEN.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "480",
+            "width": "720"
+        }
+        ,
+        {   "id":"16",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402omxP3KD6.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "480",
+            "width": "720"
+        }
+        ,
+        {   "id":"17",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402qEZfT5JI.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "480",
+            "width": "720"
+        }
+        ,
+        {   "id":"18",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402cjy4WFqa.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "480",
+            "width": "720"
+        }
+        ,
+        {   "id":"19",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402bojp6cJS.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "960",
+            "width": "640"
+        }
+        ,
+        {   "id":"20",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402hfjRAXEl.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "575",
+            "width": "960"
+        }
+        ,
+        {   "id":"21",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402ldKaRJxa.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "640",
+            "width": "960"
+        }
+        ,
+        {   "id":"22",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402AH3ZH3OR.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "3456",
+            "width": "2304"
+        }
+        ,
+        {   "id":"23",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402u4blbv52.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "2304",
+            "width": "3456"
+        }
+        ,
+        {   "id":"24",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402cdiDXVcJ.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "2955",
+            "width": "2286"
+        }
+        ,
+        {   "id":"25",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402oHG2j1qo.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "1531",
+            "width": "1134"
+        }
+        ,
+        {   "id":"26",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402xQB1UtAV.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "576",
+            "width": "864"
+        }
+        ,
+        {   "id":"27",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402yw3cuTvd.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "544",
+            "width": "816"
+        }
+        ,
+        {   "id":"28",
+            "@type": "ImageObject",
+            "image": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/467402/page/467402QwSMCkaI.jpg",
+            "description": "No Description",
+            "name": "Muestras",
+            "height": "533",
+            "width": "816"
+        }
+        ]
+}
