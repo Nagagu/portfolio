@@ -11,7 +11,7 @@ export const NavBar = () => {
             activeClassName="active"
             className="nav-item nav-link"
             exact
-            to="/aboutme"
+            to="/portfolio/aboutme"
           >
             About me
           </NavLink>
@@ -20,7 +20,7 @@ export const NavBar = () => {
             activeClassName="active"
             className="nav-item nav-link"
             exact
-            to="/bnw"
+            to="/portfolio/bnw"
           >
             B&W
           </NavLink>
@@ -28,7 +28,7 @@ export const NavBar = () => {
             activeClassName="active"
             className="nav-item nav-link"
             exact
-            to="/color"
+            to="/portfolio/color"
           >
             Color
           </NavLink>
@@ -37,7 +37,7 @@ export const NavBar = () => {
             activeClassName="active"
             className="nav-item nav-link"
             exact
-            to="/all"
+            to="/portfolio/all"
           >
             All
           </NavLink>
@@ -45,7 +45,7 @@ export const NavBar = () => {
             activeClassName="active"
             className="nav-item nav-link"
             exact
-            to="/madrid"
+            to="/portfolio/madrid"
           >
             Madrid
           </NavLink>

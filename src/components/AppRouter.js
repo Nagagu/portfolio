@@ -2,22 +2,21 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { NavBar } from "./NavBar";
 import { PhotosScreen } from "./PhotosScreen";
 
-export const AppRouter = () => {
+export const AppRouter = (props) => {
+  debugger;
   return (
     <Router>
       <div>
         <NavBar />
         <Switch>
           <Route
-            exact
-            path="/all"
+            path="/portfolio/all"
             render={(o) => (
               <PhotosScreen filterFunction={(item) => true}></PhotosScreen>
             )}
           ></Route>
           <Route
-            exact
-            path="/color"
+            path="/portfolio/color"
             render={(o) => (
               <PhotosScreen
                 filterFunction={(item) => item.color == true}
@@ -25,8 +24,7 @@ export const AppRouter = () => {
             )}
           ></Route>
           <Route
-            exact
-            path="/bnw"
+            path="/portfolio/bnw"
             render={(o) => (
               <PhotosScreen
                 filterFunction={(item) => item.color == false}
@@ -34,8 +32,7 @@ export const AppRouter = () => {
             )}
           ></Route>
           <Route
-            exact
-            path="/madrid"
+            path="/portfolio/madrid"
             render={(o) => (
               <PhotosScreen
                 filterFunction={(item) => item.place == "Madrid"}
