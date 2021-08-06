@@ -5,7 +5,7 @@ export const PhotoDetail = (photoId, onClick) => {
     <a href="#" id="bottle" onclick={onClick}>
       <div>
         <img
-          src={`../assets/photos/${photoId}.jpg`}
+          src={`./assets/photos/${photoId}.jpg`}
           alt={photoId}
           className="img-thumbnail"
         />

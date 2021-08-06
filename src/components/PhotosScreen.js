@@ -10,8 +10,9 @@ export const PhotosScreen = ({ filterFunction }) => {
   const filteredPhotos = photos.filter(filterFunction);
   const breakpoints = {
     default: 5,
-    1100: 2,
-    700: 1,
+    1100: 4,
+    700: 3,
+    500: 2,
   };
   const [photo, setSelectedPhoto] = useState(null);
 
