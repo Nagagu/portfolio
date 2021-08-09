@@ -22,14 +22,18 @@ export const ModalPhoto = ({ setSelectedPhoto, photo }) => {
             <h5 className="centerTitle">Where do I took this photo?</h5>
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className=" show-grid">
+        <Modal.Body className="show-grid">
           <Container>
             <Row>
               <Col xs={12} md={6}>
-                <Image src={`./assets/photos/${photo.id}.jpg`} width="100%" />
+                <Image
+                  className="detail-image"
+                  src={`./assets/photos/${photo.id}.jpg`}
+                  width="100%"
+                />
               </Col>
               <Col xs={6} md={6}>
-                <MapContainer photo={photo} />
+                <MapContainer className="map-image" photo={photo} />
               </Col>
             </Row>
           </Container>

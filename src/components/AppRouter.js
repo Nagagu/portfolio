@@ -13,7 +13,7 @@ export const AppRouter = (props) => {
       <Router>
         <div>
           <NavBar setMenuIsOpen={setMenuIsOpen} menuIsOpen={menuIsOpen} />
-          <Menu menuIsOpen={menuIsOpen} />
+          <Menu menuIsOpen={menuIsOpen} setMenuIsOpen={setMenuIsOpen} />
           <Switch>
             <Route
               path="/portfolio/all"

@@ -6,7 +6,7 @@
   width: auto;
 }
 .my-masonry-grid_column {
-  padding-left: 30px; /* gutter size */
+  padding-left: 30px; /*gutter size*/
   background-clip: padding-box;
 }
 
@@ -20,22 +20,24 @@
 .masonry {
   margin-top: 70px;
 }
-.modal-content {
-  width: 200vw !important;
-}
 .modal-body {
-  width: 60vw;
+  padding-right: 40px;
+  padding-left: 12px;
 }
-.modalphoto {
+.modal-content {
+  width: 70vw;
   display: flex;
-  margin-top: 29vh;
 }
+
 .centerTitle {
   text-align: center;
 }
-.img-detail {
-  width: 100%;
+/* .detail-image {
+  border-radius: 20px;
 }
+.map-image {
+  border-radius: 20px;
+} */
 
 .navbar-nav {
   display: none;
@@ -44,20 +46,21 @@
 label {
   color: white;
 }
-/* .modal-menu {
-  background-color: rgba(180, 17, 17, 0.8);
-  position: fixed;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 1s;
-} */
+
+.modalphoto {
+  display: flex;
+  margin-top: 29vh;
+  flex-direction: column;
+  align-items: center;
+}
+
 .modal-menu {
   width: 100%;
   height: 100%;
-  z-index: 1;
-  position: fixed;
+  position: absolute;
   background: #080808c7;
   z-index: 1;
+  transition: all 200ms ease-in-out;
 }
 .menu {
   display: flex;
@@ -70,6 +73,9 @@ label {
   font-size: 2rem;
   line-height: 11vh;
 }
+.photocard {
+  border-radius: 4%;
+}
 
 @media only screen and (min-width: 1000px) {
   .navbar-nav {
@@ -80,6 +86,9 @@ label {
     display: none;
   }
   .menu {
+    display: none;
+  }
+  .modal-menu {
     display: none;
   }
 }

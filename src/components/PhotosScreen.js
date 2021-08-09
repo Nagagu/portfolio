@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { PhotoCard } from "./PhotoCard";
 import { photos } from "../data/photos";
 import Masonry from "react-masonry-css";
-import { PhotoDetail } from "./PhotoDetail";
 import { Container, Image, Modal } from "react-bootstrap";
 import { ModalPhoto } from "./ModalPhoto";
 
@@ -23,7 +22,8 @@ export const PhotosScreen = ({ filterFunction }) => {
     <Container className="masonry">
       <Masonry
         breakpointCols={breakpoints}
-        columnClassName="my-masonry-grid_column animate__animated animate__fadeIn"
+        // columnClassName="my-masonry-grid_column animate__animated animate__fadeIn"
+        columnClassName="my-masonry-grid_column"
       >
         {filteredPhotos.map((photo) => (
           <PhotoCard

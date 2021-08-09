@@ -1,22 +1,44 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
-export const Menu = ({ menuIsOpen }) => {
+export const Menu = ({ menuIsOpen, setMenuIsOpen }) => {
+  const history = useHistory();
+
   return (
     menuIsOpen && (
       <div className="modal-menu">
         <div className="menu">
-          <Link className="nav-item nav-link" to="/portfolio/all">
+          <Link
+            className="nav-item nav-link"
+            onClick={(e) => {
+              // e.preventDefault();
+              // history.push("/portfolio/all");
+              setMenuIsOpen(false);
+            }}
+            to="/portfolio/all"
+          >
             All
           </Link>
-          <Link className="nav-item nav-link" to="/portfolio/bnw">
+          <Link
+            className="nav-item nav-link"
+            onClick={() => setMenuIsOpen(false)}
+            to="/portfolio/bnw"
+          >
             B&W
           </Link>
-          <Link className="nav-item nav-link" to="/portfolio/color">
+          <Link
+            className="nav-item nav-link"
+            onClick={() => setMenuIsOpen(false)}
+            to="/portfolio/color"
+          >
             Color
           </Link>
 
-          <Link className="nav-item nav-link" to="/portfolio/madrid">
+          <Link
+            className="nav-item nav-link"
+            onClick={() => setMenuIsOpen(false)}
+            to="/portfolio/madrid"
+          >
             Madrid
           </Link>
         </div>
