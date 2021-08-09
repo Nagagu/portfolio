@@ -22,7 +22,7 @@ export const ModalPhoto = ({ setSelectedPhoto, photo }) => {
             <h5 className="centerTitle">Where do I took this photo?</h5>
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="show-grid">
+        <Modal.Body className=" show-grid">
           <Container>
             <Row>
               <Col xs={12} md={6}>
