@@ -1,4 +1,10 @@
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Link,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
 import { NavBar } from "./NavBar";
 import { PhotosScreen } from "./PhotosScreen";
 import { Menu } from "./Menu";
@@ -44,6 +50,10 @@ export const AppRouter = (props) => {
                   filterFunction={(item) => item.place == "Madrid"}
                 ></PhotosScreen>
               )}
+            ></Route>
+            <Route
+              path="/"
+              render={(o) => <Redirect to="/portfolio/all" />}
             ></Route>
           </Switch>
         </div>
