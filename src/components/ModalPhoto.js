@@ -25,7 +25,7 @@ export const ModalPhoto = ({ setSelectedPhoto, photo }) => {
         <Modal.Body className="show-grid">
           <Container>
             <Row>
-              <Col xs={12} md={6}>
+              <Col xs={6} md={6}>
                 <Image
                   className="detail-image"
                   src={`./assets/photos/${photo.id}.jpg`}
