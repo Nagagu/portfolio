@@ -24,7 +24,7 @@ export const ModalPhoto = ({ setSelectedPhoto, photo }) => {
         </Modal.Header>
         <Modal.Body className="show-grid">
           <Container>
-            <Row>
+            <Row xs={1} md={2}>
               <Col xs={6} md={6}>
                 <Image
                   className="detail-image"
@@ -32,6 +32,7 @@ export const ModalPhoto = ({ setSelectedPhoto, photo }) => {
                   width="100%"
                 />
               </Col>
+
               <Col xs={6} md={6}>
                 <MapContainer className="map-image" photo={photo} />
               </Col>
@@ -45,5 +46,5 @@ export const ModalPhoto = ({ setSelectedPhoto, photo }) => {
 };
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyCeUObCwkss-WxO7R8KBKsZOKkUrI52tjQ",
+  apiKey: "AIzaSyCwTl0HAKFHnGsPPK11qZwfF8dEjr8eJtY",
 })(ModalPhoto);

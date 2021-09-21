@@ -2,8 +2,6 @@ import React from "react";
 import { Link, useHistory } from "react-router-dom";
 
 export const Menu = ({ menuIsOpen, setMenuIsOpen }) => {
-  const history = useHistory();
-
   return (
     menuIsOpen && (
       <div className="modal-menu">
@@ -11,8 +9,6 @@ export const Menu = ({ menuIsOpen, setMenuIsOpen }) => {
           <Link
             className="nav-item nav-link"
             onClick={(e) => {
-              // e.preventDefault();
-              // history.push("/portfolio/all");
               setMenuIsOpen(false);
             }}
             to="/portfolio/all"

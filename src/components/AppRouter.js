@@ -15,7 +15,6 @@ export const AppRouter = (props) => {
 
   return (
     <div>
-      {/* <Menu menuIsOpen={menuIsOpen} /> */}
       <Router>
         <div>
           <NavBar setMenuIsOpen={setMenuIsOpen} menuIsOpen={menuIsOpen} />

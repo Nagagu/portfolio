@@ -1,10 +1,14 @@
 import React from "react";
 
-export const PhotoCard = ({ id, onClick }) => {
+export const PhotoCard = ({ photo, onClick }) => {
   return (
     <div className=" photocard animate__animated animate__fadeIn">
-      <a href="#" id="bottle" onClick={onClick}>
-        <img src={`./assets/photos/${id}.jpg`} alt={id} className="card-img" />
+      <a href="#" onClick={() => onClick(photo)}>
+        <img
+          src={`./assets/photos/${photo.id}.jpg`}
+          alt={photo.id}
+          className="card-img"
+        />
       </a>
     </div>
   );

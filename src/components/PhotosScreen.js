@@ -13,7 +13,7 @@ export const PhotosScreen = ({ filterFunction }) => {
     700: 3,
     500: 2,
   };
-  const [photo, setSelectedPhoto] = useState(null);
+  const [selectedPhoto, setSelectedPhoto] = useState(null);
 
   const handleOpenModal = (photo) => {
     setSelectedPhoto(photo);
@@ -26,17 +26,11 @@ export const PhotosScreen = ({ filterFunction }) => {
         columnClassName="my-masonry-grid_column"
       >
         {filteredPhotos.map((photo) => (
-          <PhotoCard
-            key={photo.id}
-            {...photo}
-            onClick={() => {
-              handleOpenModal(photo);
-            }}
-          />
+          <PhotoCard key={photo.id} photo={photo} onClick={handleOpenModal} />
         ))}
       </Masonry>
-      {photo !== null ? (
-        <ModalPhoto setSelectedPhoto={setSelectedPhoto} photo={photo} />
+      {selectedPhoto !== null ? (
+        <ModalPhoto setSelectedPhoto={setSelectedPhoto} photo={selectedPhoto} />
       ) : null}
     </Container>
   );
