@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { PhotoCard } from "./PhotoCard";
 import { photos } from "../data/photos";
 import Masonry from "react-masonry-css";
-import { Container, Image, Modal } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import { ModalPhoto } from "./ModalPhoto";
 
 export const PhotosScreen = ({ filterFunction }) => {

@@ -1,6 +1,6 @@
 import React from "react";
 // import { Redirect, Route, Switch } from "react-router";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const NavBar = ({ setMenuIsOpen, menuIsOpen }) => {
   // const handleOpenMenu = () => {

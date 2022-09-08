@@ -1,6 +1,5 @@
 import {
   BrowserRouter as Router,
-  Link,
   Redirect,
   Route,
   Switch,
@@ -30,7 +29,7 @@ export const AppRouter = (props) => {
               path="/portfolio/color"
               render={(o) => (
                 <PhotosScreen
-                  filterFunction={(item) => item.color == true}
+                  filterFunction={(item) => item.color === true}
                 ></PhotosScreen>
               )}
             ></Route>
@@ -38,7 +37,7 @@ export const AppRouter = (props) => {
               path="/portfolio/bnw"
               render={(o) => (
                 <PhotosScreen
-                  filterFunction={(item) => item.color == false}
+                  filterFunction={(item) => item.color === false}
                 ></PhotosScreen>
               )}
             ></Route>
@@ -46,7 +45,7 @@ export const AppRouter = (props) => {
               path="/portfolio/madrid"
               render={(o) => (
                 <PhotosScreen
-                  filterFunction={(item) => item.place == "Madrid"}
+                  filterFunction={(item) => item.place === "Madrid"}
                 ></PhotosScreen>
               )}
             ></Route>

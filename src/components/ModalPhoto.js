@@ -1,14 +1,11 @@
 import { Container, Modal, Row, Col } from "react-bootstrap";
 import React from "react";
 import { Image } from "react-bootstrap";
-import { GoogleApiWrapper } from "google-maps-react";
 import MapContainer from "./MapContainer.js";
 
+
 export const ModalPhoto = ({ setSelectedPhoto, photo }) => {
-  const mapStyles = {
-    width: "100%",
-    height: "100%",
-  };
+
   return (
     <div>
       <Modal
@@ -44,7 +41,3 @@ export const ModalPhoto = ({ setSelectedPhoto, photo }) => {
     </div>
   );
 };
-
-export default GoogleApiWrapper({
-  apiKey: "AIzaSyCwTl0HAKFHnGsPPK11qZwfF8dEjr8eJtY",
-})(ModalPhoto);
